@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glozzom</title>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico.png" type="image/x-icon">
+</head>
+<body>
+ 
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md" style="overflow:hidden" uk-sticky="top:250; animation: uk-animation-slide-top; bottom: sticky-on-scroll-up">
+        <div class="container">
+            <a href="#" class="navbar-brand">Glozzom</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapseMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="collapseMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.html" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel slider -->
+    <section class="container-fluid p-0" style="overflow:hidden">
+        <div class="carousel slide" data-ride="carousel" id="root">
+            <ul class="carousel-indicators">
+                <li data-target="#root" class="active" data-slide-to="0"></li>
+                <li data-target="#root" data-slide-to="1"></li>
+                <li data-target="#root" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/image1.jpg" alt="image/slider" id="carousel-image" class="img-fluid">
+                    <div class="carousel-caption text-center text-white pb-5 mb-5">
+                        <h1 class="display-4" id="d-4">Heading One</h1>
+                        <p class="font-weight-light" style="font-size:1.2rem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore iusto tempora atque tempore dolores sapiente nesciunt delectus ipsa sit laboriosam.</p>
+                        <a class="btn btn-danger text-white" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/image2.jpg" alt="image/slider" id="carousel-image" class="img-fluid">
+                    <div class="carousel-caption text-center text-white pb-5 mb-5">
+                        <h1 class="display-4" id="d-4">Heading Two</h1>
+                        <p class="font-weight-light" style="font-size:1.2rem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore iusto tempora atque tempore dolores sapiente nesciunt delectus ipsa sit laboriosam.</p>
+                        <a class="btn btn-warning text-white" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/image3.jpg" alt="image/slider" id="carousel-image" class="img-fluid">
+                    <div class="carousel-caption text-center text-white pb-5 mb-5">
+                        <h1 class="display-4" id="d-4">Heading Three</h1>
+                        <p class="font-weight-light" style="font-size:1.2rem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore iusto tempora atque tempore dolores sapiente nesciunt delectus ipsa sit laboriosam.</p>
+                        <a class="btn btn-primary text-white" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="carousel-control-prev" data-slide="prev" data-target="#root">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="" class="carousel-control-next" data-slide="next" data-target="#root">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section-two -->
+
+    <section class="py-5 bg-white" style="overflow:hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="card" id="card_1" >
+                        <div class="card-body">
+                            <i class="fas fa-dolly-flatbed" id="icon"></i>
+                            <h3 class="card-header card_h">Turning Future</h3>
+                            <p class="font-weight-light" style="font-size:1.1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae deleniti qui adipisci porro neque incidunt reprehenderit vel aliquid minus!</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card" id="card_1">
+                        <div class="card-body">
+                            <i class="fab fa-accusoft" id="icon"></i>
+                            <h3 class="card-header card_h">Sending Data</h3>
+                            <p class="font-weight-light" style="font-size:1.1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae deleniti qui adipisci porro neque incidunt reprehenderit vel aliquid minus!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card" id="card_1">
+                        <div class="card-body">
+                            <i class="fas fa-cart-plus" id="icon"></i>
+                            <h3 class="card-header card_h">Making Money</h3>
+                            <p class="font-weight-light" style="font-size:1.1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae deleniti qui adipisci porro neque incidunt reprehenderit vel aliquid minus!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-2 -->
+    <section id="fixed_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-white">
+                    <h1>Are You Ready To Get Started?</h1>
+                    <p style="font-size:1.2rem;padding:10px 0" class="font-weight-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, tempora! Odio, accusamus quibusdam. Nostrum recusandae unde nihil, beatae dolore laboriosam sequi, qui, doloribus at quisquam blanditiis hic molestiae! Rerum, molestias!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-three -->
+
+    <section class="py-5" style="overflow:hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <h1 class="py-3">Self Help Is The Best Help!</h1>
+                    <p class="font-weight-light" style="font-size:1.2rem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At sapiente itaque alias dolores est nobis possimus voluptate magni numquam non! Aspernatur vel hic minus porro a omnis sit totam iusto odio vitae deserunt eligendi.</p>
+                    <a href="#" class="btn btn-dark">Read More</a>
+                </div>
+                <div class="col-md-12 col-lg-6" id="img-part">
+                    <img src="img/30.jpg" alt="image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Youtube section -->
+
+    <section id="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div uk-lightbox>
+                        <a href="https://youtu.be/TPmBkmJDPvQ" target="_blank">
+                            <i class="fas fa-play" style="color:rgba(228, 18, 18, 0.801); font-size:3rem"></i>
+                        </a>
+                    </div>         
+                    <h1 class="text-white pt-3">Learn Extar Something</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo gellary part -->
+
+    <section uk-lightbox style="overflow:hidden" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center pb-4">
+                    <h1 class="display-4" id="captionOfGellary">Photo Gallery</h1>
+                    <p style="font-size:1.3rem">Check Out Our Visited Place</p>
+                </div>     
+                <div class="col-lg-4" id="slide_img">
+                    <a href="img/image1.jpg">
+                        <img src="img/image1.jpg" class="img-fluid" alt="" style="width:100%; height:200px; object-fit:cover">
+                    </a>
+                </div>
+                <div class="col-lg-4" id="slide_img">
+                    <a href="img/image2.jpg">
+                        <img src="img/image2.jpg" class="img-fluid" alt="" style="width:100%; height:200px; object-fit:cover">
+                    </a>
+                </div>
+                <div class="col-lg-4" id="slide_img">
+                    <a href="img/image3.jpg">
+                        <img src="img/image3.jpg" class="img-fluid" alt="" style="width:100%; height:200px; object-fit:cover">
+                    </a>
+                </div>
+                <div class="col-lg-4" id="slide_img">
+                    <a href="img/image4.jpg">
+                        <img src="img/image4.jpg" class="img-fluid" alt="" style="width:100%; height:200px; object-fit:cover">
+                    </a>
+                </div>
+                <div class="col-lg-4" id="slide_img">
+                    <a href="img/image5.jpg">
+                        <img src="img/image5.jpg" class="img-fluid" alt="" style="width:100%; height:200px; object-fit:cover">
+                    </a>
+                </div>
+                <div class="col-lg-4" id="slide_img">
+                    <a href="img/image6.jpg">
+                        <img src="img/image6.jpg" class="img-fluid" alt="" style="width:100%; height:200px; object-fit:cover">
+                    </a>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- SignUp section -->
+
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <div class="row text-white text-center">
+                <div class="col">
+                    <h1 class="text-light pb-3">SingUp For Our Newsletter</h1>
+                    <p style="font-size:1.2rem" class="font-weight-light pb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum porro, temporibus praesentium consequatur, obcaecati, recusandae animi reiciendis Lorem, ipsum dolor.</p>
+                    <form action="#" method="POST">
+                        <div class="row">
+                            <div class="col-md-4" id="signUp">
+                                <div class="input-group">
+                                    <div class="input-group-prepend input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <input type="text" name="Name" class="form-control" placeholder="Name"> 
+                                </div>
+                            </div>
+                            <div class="col-md-4" id="signUp">
+                                <div class="input-group">
+                                    <div class="input-group-prepend input-group-text">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <input type="email" name="Email" class="form-control" placeholder="Email"> 
+                                </div>
+                            </div>
+                            <div class="col-md-4" id="signUp">
+                                <div class="input-group">
+                                    <div class="input-group-prepend input-group-text bg-warning">
+                                        <input class="form-control " type="checkbox">
+                                    </div>
+                                    <input type="Submit" value="Subscribe" class="form-control btn-primary" style="cursor:pointer"> 
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer part -->
+
+    <footer class="py-4" style="background: #000000e8;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0 text-white" style="font-size:1.2rem">Copyright 2018 &copy; Glozzom</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- JS FILES -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script>
+        $("#root").carousel({
+            pause: false
+        })
+    </script>
+</body>
+</html>

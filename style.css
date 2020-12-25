@@ -1,0 +1,213 @@
+.navbar{
+    padding:18px 0;
+}
+.nav-item{
+    text-transform:uppercase;
+    padding-right:20px;
+}
+.nav-item:last-child{
+    padding-right:0;
+}
+#carousel-image{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+}
+.carousel-indicators li {
+    height: 6px;
+    background-color: rgba(0, 255, 40, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#icon{
+    font-size:3rem;
+    color:#333;
+    padding-bottom:20px;
+}
+#card_1:hover #icon{
+    color:orange;
+    transition:.4s linear;
+    -webkit-transition:.4s linear;
+    -moz-transition:.4s linear;
+    -ms-transition:.4s linear;
+    -o-transition:.4s linear;
+}
+.card_h{
+    background:none;
+    border-bottom:none;
+}
+
+#fixed_part{
+    overflow:hidden;
+    background:linear-gradient(rgba(51, 51, 51, 0.6),rgba(51, 51, 51, 0.6)), url(img/pc.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center top;
+    padding:90px 0;
+}
+#video{
+    background:linear-gradient(rgba(51, 51, 51, 0.6),rgba(51, 51, 51, 0.6)), url(img/people.jpg);
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center center;
+    padding:90px 0;
+}
+
+#slide_img:nth-child(1),
+#slide_img:nth-child(2),
+#slide_img:nth-child(3)
+{
+    margin-bottom:30px
+}
+
+#about_section{
+    overflow: hidden;
+    background:linear-gradient(rgba(51, 51, 51, 0.705),rgba(51, 51, 51, 0.705)), url(img/image2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+    background-attachment: fixed;
+    padding:90px 0
+}
+#card_3{
+    border-radius:5px;;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.para_4{
+    margin:auto;
+}
+#slick_section .slick-prev::before,
+#slick_section .slick-next::before{
+    color:#000
+}
+
+#service_section{
+    overflow:hidden;
+    background: linear-gradient(rgba(32, 178, 171, 0.658),rgba(32, 178, 171, 0.651)), url(img/mountains.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+    padding:90px 0
+}
+#service_plan{
+    overflow:hidden;
+}
+
+#blog_section{
+    overflow:hidden;
+    background: linear-gradient(rgba(32, 178, 171, 0.5),rgba(32, 178, 171, 0.5)), url(img/12.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center bottom;
+    background-attachment: fixed;
+    padding:90px 0
+}
+#contact_section{
+    overflow:hidden;
+    background: linear-gradient(rgba(32, 178, 56, 0.5),rgba(32, 178, 69, 0.5)), url(img/25.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center bottom;
+    background-attachment: fixed;
+    padding:90px 0
+}
+/* making this side responsive */
+@media only screen and (max-width:450px) {
+    #captionOfGellary{
+        font-size:38px
+    }
+    #slide_img img{
+        width:100% !important;
+        height:300px !important;
+    }
+    
+    #about_section{
+        padding:40px 0;
+    }
+    #col_2{
+        padding:40px 0 !important;
+    }
+}
+@media only screen and (max-width:540px){
+    #d-4{
+        font-size:40px !important
+    }
+    .carousel-caption p{
+        font-size:1.1rem !important
+    }
+    
+}
+@media only screen and (max-width:575px){
+    .navbar{
+        padding:20px 25px
+    }
+}
+@media only screen and (max-width:767px) {
+    #card_1:nth-child(1),
+    #card_1:nth-child(2){
+        margin-bottom:30px
+    }
+    #signUp:nth-child(1),
+    #signUp:nth-child(2){
+       margin-bottom:20px 
+    }
+    #sre_res:nth-child(1),
+    #sre_res:nth-child(2){
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:991px){
+    #img-part{
+        margin-top:40px
+    }
+    #slide_img:nth-child(4),
+    #slide_img:nth-child(5),
+    #slide_img:nth-child(6)
+    {
+        margin-bottom:30px
+    }
+    #slide_img img{
+        width:600px !important;
+        height:300px !important;
+
+    }
+    #slide_img{
+        text-align:center
+    }
+    #demo_para{
+        width:100% !important;
+    }
+    #card_3{
+      margin-bottom:30px  
+    }
+    #another_row{
+        margin-top:0 !important
+    }
+    .without_mr{
+        margin-bottom: 0 !important;
+    }
+    #blog_part:nth-child(1),
+    #blog_part:nth-child(2){
+        margin-bottom: 40px;
+    }
+    #aside_contact{
+        margin-top:40px
+    }
+}
+@media only screen and (max-width:450px) {
+    #captionOfGellary{
+        font-size:38px
+    }
+    #slide_img img{
+        width:100% !important;
+        height:300px !important;
+
+    }
+}
